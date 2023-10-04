@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  /* gap: 20px; */
+  overflow-x: auto;
+}
+
+.card--image{
+  width: 80%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
