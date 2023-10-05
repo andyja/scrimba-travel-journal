@@ -3,9 +3,7 @@ import React from "react"
 export default function Header() {
     const date = new Date();
     const hours = date.getHours();
-    let day = date.getDay();
     let timeOfDay
-    let dayOfWeek
     if (hours < 12) {
         timeOfDay = "morning";
     } else if (hours >= 12 && hours < 17) {
@@ -14,8 +12,9 @@ export default function Header() {
         timeOfDay = "evening";
     }
     return (
-        <div>
-            <header>{`good ${timeOfDay}, welcome to andy's travel journal`}</header>
-        </div>
+        <header className="header--container">
+            <i className="fa-solid fa-earth-europe"></i>
+            <h4 className="header--text">{`good ${timeOfDay}, welcome to andy's travel journal`}</h4>
+        </header>
     )
 }

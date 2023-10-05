@@ -15,12 +15,13 @@ function App() {
   })
 
   return (
-    <>
+    <div className="container">
       <Header />
-      <section className="cards-list">
+
+      <section className="cardsList">
         {cards}
       </section>
-    </>
+    </div>
   )
 }
 

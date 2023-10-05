@@ -23,4 +23,36 @@ export default [
         endDate: "03/01/2001",
         coverImg: "src/assets/genoa.jpg"
     },   
+    {
+        id: 4,
+        title: "Rome",
+        region: "Lazio",
+        startDate: "02/01/2001",
+        endDate: "03/01/2001",
+        coverImg: "src/assets/rome.jpg"
+    },   
+    {
+        id: 4,
+        title: "Perugia",
+        region: "Umbria",
+        startDate: "02/01/2001",
+        endDate: "03/01/2001",
+        coverImg: "src/assets/rome.jpg"
+    },   
+    {
+        id: 4,
+        title: "Montelfalco",
+        region: "Umbria",
+        startDate: "02/01/2001",
+        endDate: "03/01/2001",
+        coverImg: "src/assets/rome.jpg"
+    },   
+    {
+        id: 4,
+        title: "Venice",
+        region: "Veneto",
+        startDate: "02/01/2001",
+        endDate: "03/01/2001",
+        coverImg: "src/assets/rome.jpg"
+    }
 ]

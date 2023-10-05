@@ -1,54 +1,89 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* section className="cards-list"
+  div className="card"
+  img src={props.item.coverImg} className="card--image"/>
+  h1 className="card--title"> */
+
+
+.container {
+  background-color: #DCD5DC;
+  color: whitesmoke;
+  font-family: 'Ysabeau', sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header--container {
+  height: 70px;
+  background-color: #769ABE;
+  color: whitesmoke;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+i {
+  color: pink;
+  padding: 10px;
+  font-size: 50px;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-.card-list {
+.cardsList {
   display: flex;
   flex-wrap: nowrap;
-  /* gap: 20px; */
+  gap: 20px;
   overflow-x: auto;
 }
-
-.card--image{
-  width: 80%;
-  border-radius: 9px;
-  margin-bottom: 9px;
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
 }
+
+.card--image {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+}
+
+/* .cardList {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  flex: 0 0 calc(33.33% - 20px);
+  padding: 5px;
+  flex-direction: column;
+  position: relative;
+  object-fit: cover;
+}
+.card {
+  background-color: pink  ;
+  display: flex;
+  flex: 0 0 calc(33.33% - 20px);
+  flex-direction: column;
+  padding: 5px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
+.card::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card--image {
+  width: 100%;
+  height: 190px;
+  border-radius: 9px;
+  margin-bottom: 0px;
+  object-fit: cover;
+  border: 5px solid #769ABE;
+} */
