@@ -30,12 +30,15 @@ i {
 }
 .cardsList {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
   gap: 20px;
-  overflow-x: auto;
+  /* overflow-x: auto;
+} */
+justify-content: center;
 }
 .card {
-  flex: 0 0 calc(33.33% - 20px);
+  /* flex: 0 0 calc(33.33% - 20px); */
   font-size: 12px;
   display: flex;
   flex-direction: column;
