@@ -32,27 +32,43 @@ export default [
         coverImg: "src/assets/rome.jpg"
     },   
     {
-        id: 4,
+        id: 5,
         title: "Perugia",
         region: "Umbria",
         startDate: "02/01/2001",
         endDate: "03/01/2001",
-        coverImg: "src/assets/rome.jpg"
+        coverImg: "src/assets/perugia.jpg"
     },   
     {
-        id: 4,
+        id: 6,
         title: "Montelfalco",
         region: "Umbria",
         startDate: "02/01/2001",
         endDate: "03/01/2001",
-        coverImg: "src/assets/rome.jpg"
+        coverImg: "src/assets/montefalco.jpg"
     },   
     {
-        id: 4,
+        id: 7,
         title: "Venice",
         region: "Veneto",
         startDate: "02/01/2001",
         endDate: "03/01/2001",
-        coverImg: "src/assets/rome.jpg"
+        coverImg: "src/assets/venice.jpg"
+    },
+    {
+        id: 8,
+        title: "Florence",
+        region: "Tuscany",
+        startDate: "02/01/2001",
+        endDate: "03/01/2001",
+        coverImg: "src/assets/florence.jpg"
+    },
+    {
+        id: 9,
+        title: "Milan",
+        region: "Lombardy",
+        startDate: "02/01/2001",
+        endDate: "03/01/2001",
+        coverImg: "src/assets/milan.jpg"
     }
 ]

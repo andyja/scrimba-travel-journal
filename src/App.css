@@ -38,12 +38,13 @@ i {
 justify-content: center;
 }
 .card {
-  /* flex: 0 0 calc(33.33% - 20px); */
+  flex: 0 0 calc(33.33% - 20px);
   font-size: 12px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   position: relative;
+  text-align: center;
 }
 
 .card--image {
